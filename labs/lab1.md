@@ -7,4 +7,11 @@
 ## ii. Implement the previous calls in any async way in Python3 and named http_async_call.py 
 
 
+## Submission:
+
+Check in these three files to your github repo named cmpe273-lab1.
+
+- http_call.py
+- http_async_call.py 
+- output.txt
 
