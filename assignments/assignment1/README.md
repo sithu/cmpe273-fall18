@@ -1,4 +1,4 @@
-# Requirements
+# Design Spartan Messenger
 
 - Design one-on-one conversations between users?
 - How would you extend your design to support group chats?
