@@ -1,0 +1,7 @@
+# 1-1 messaging
+users: [alice,bob,charlie,eve,foo,bar,baz,qux]
+
+# Group messaging
+groups:
+ group1: [alice,bob,charlie,eve]
+ group2: [foo,bar,baz,qux]
