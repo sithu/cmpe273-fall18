@@ -2,6 +2,8 @@
 
 You will be building Spartan Messenger using GRPC in Python3.
 
+## Features
+
 __Level__ :star: 
 - Design one-on-one conversations between users. :couple:
 - Implements a LRU Cache to store recent messages in memory. :floppy_disk:
@@ -14,4 +16,10 @@ __Level__ :star::star:
 
 __Level__ :star::star::star:
 - Extend your design to support group chats. :family:
+
+## App Config
+
+- Use given [config.yaml](config.yaml) to load users for the Spartan messenger.
+
+
 
