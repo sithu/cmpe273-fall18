@@ -9,7 +9,7 @@ You will be building Spartan Messenger using GRPC in Python3.
 
 
 ## Level :star::star:
-- Provide end-to-end message encryption using [SHA256](https://docs.python.org/3/library/hashlib.html). :key: 
+- Provide end-to-end message encryption using [AES from PyCrypto library.](https://docs.python-guide.org/scenarios/crypto/#pycrypto) :key: 
 - Add [Decorator](https://www.python-course.eu/python3_decorators.php) for the LRU cache (E.g @lru_cache) and rate limition (E.g. @rate) from the level :star:. :cyclone:
 
 ## Level :star::star::star:
