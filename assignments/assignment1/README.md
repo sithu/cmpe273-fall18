@@ -1,4 +1,4 @@
-# Design Spartan Messenger :speech_balloon:
+# Spartan Messenger :speech_balloon:
 
 You will be building Spartan Messenger using GRPC in Python3. You might want to use gRPC response streaming to continuously receive chat messages from the Spartan server.
 
