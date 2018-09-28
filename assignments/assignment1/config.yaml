@@ -1,3 +1,6 @@
+# Spartan Server Port
+port: 3000
+
 # 1-1 messaging
 users: [alice,bob,charlie,eve,foo,bar,baz,qux]
 
