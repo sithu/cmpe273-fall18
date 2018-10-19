@@ -1,3 +1,12 @@
+# Spartan Server Port
+port: 3000
+
+# LRU cache
+max_num_messages_per_user: 5
+
+# Rate limit
+max_call_per_30_seconds_per_user: 3 
+
 # 1-1 messaging
 users: [alice,bob,charlie,eve,foo,bar,baz,qux]
 

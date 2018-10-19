@@ -1,4 +1,4 @@
-# Design Spartan Messenger :speech_balloon:
+# Spartan Messenger :speech_balloon:
 
 You will be building Spartan Messenger using GRPC in Python3. You might want to use gRPC response streaming to continuously receive chat messages from the Spartan server.
 
@@ -27,7 +27,7 @@ Alice's Terminal
 > python3 client.py alice
 [Spartan] Connected to Spartan Server at port 3000.
 [Spartan] User list: bob,charlie,eve,foo,bar,baz,qux
-[Spartan] Enter a user whom you want to chat with: __bob__
+[Spartan] Enter a user whom you want to chat with: bob
 [Spartan] You are now ready to chat with bob.
 [alice] > Hey Bob!
 [alice] >
@@ -36,9 +36,9 @@ Alice's Terminal
 Bob's Terminal
 ```sh
 > python3 client.py bob
-[Spartan] Connected to Spartan Server.
+[Spartan] Connected to Spartan Server at port 3000.
 [Spartan] User list: alice,charlie,eve,foo,bar,baz,qux
-[Spartan] alice is requesting to chat with you. Enter 'yes' to accept or different user: __yes__
+[Spartan] alice is requesting to chat with you. Enter 'yes' to accept or different user: yes
 [Spartan] You are now ready to chat with alice.
 [alice] Hey Bob!
 [bob] >
