@@ -66,7 +66,7 @@ python3 api.py 5002
 python3 api.py 5003
 ```
 
-## II. Hashed Client
+## II. Hashed Clients
 
 In the part II, you will be writing CSV file parser to read each column from the input csv file.
 Then, feed the data into:
@@ -81,11 +81,38 @@ In both clients, you will be sharding via HTTP POST to http://localhost:5000/api
 servers = ['http://localhost:5000','http://localhost:5001','http://localhost:5002','http://localhost:5003']
 ```
 
+Once you have sharded all data into the cluster, you can finally print out the uploaded data from:
+http://localhost:5000/api/v1/entries.
+
+
 Example:
 
 ```
 python3 consistent_hash.py causes-of-death.csv
+Uploaded all 10296 entries.
+Verifying the data.
+GET http://localhost:5000
+{
+    ....
+}
+
+GET http://localhost:5001
+{
+    ...
+}
+
+GET http://localhost:5002
+{
+    ...
+}
+
+GET http://localhost:5003
+{
+    ...
+}
+
 python3 hrw_hash.py causes-of-death.csv
+...
 ```
 
 You might want to implement CSV parser in a separate file called csv_paser.py so that both clients are shared the implementation.
