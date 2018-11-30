@@ -8,7 +8,7 @@ In the part I, you will be building a key-value datastore service that persists 
 
 - For the node-2-node communication, you must use [UDP](https://twistedmatrix.com/documents/9.0.0/core/howto/udp.html) protocol.
 - Once a node receives a message, it will print out FBA protocol messages to console while storing data into a local key-value store called [PickleDB](https://pythonhosted.org/pickleDB/).
-- You must name PickleDB file to _assignment3_{port_num}.db_ . 
+- You must name PickleDB file to assignment3_{port_num}.db . 
 - At the end of every DB change, you will print out all key-value entries to the console.
 - You need to write a small client to send data and the client will send the following messages to the FBA cluster.
 - The client will also print out the reply messages to the console along with node id. before sending the another one. You can hardcode the below messages in the client and can loop through them to send to the cluster.
