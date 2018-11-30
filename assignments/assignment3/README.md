@@ -1,6 +1,6 @@
 # Requirements
 
-You will be implementing a Federated Byzantine Agreement (FBA) prototype in Python3.
+You will be implementing a Federated Byzantine Agreement (FBA) prototype in Python3. First, read [this article](https://medium.com/a-stellar-journey/on-worldwide-consensus-359e9eb3e949) and [the Stellar white paper](https://www.stellar.org/papers/stellar-consensus-protocol.pdf) before proceeding the assignment.
 
 ## Part I
 
